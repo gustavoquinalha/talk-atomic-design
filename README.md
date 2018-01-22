@@ -56,6 +56,8 @@ https://github.com/gustavoquinalha/atomic-design-bem-rscss-itcss
 - https://tableless.com.br/como-boas-praticas-de-escrita-de-codigo-podem-influenciar-em-uma-melhor-rotina-de-trabalho/
 - https://tableless.com.br/design-patterns-em-javascript-observer/
 - https://tableless.com.br/principios-para-escrever-css-de-forma-consistente/
+- https://medium.com/popup-design/design-feio-63cdf3b8ab6b
+
 
 - https://uxdesign.cc/atomic-design-creativity-28ef74d71bc6
 - http://bradfrost.com/blog/post/atomic-web-design/

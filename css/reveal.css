@@ -1180,3 +1180,7 @@ body {
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+section section.align-center {
+	display: flex!important
+}
