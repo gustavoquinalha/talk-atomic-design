@@ -49,6 +49,10 @@ https://github.com/gustavoquinalha/atomic-design-bem-rscss-itcss
 - https://blog.mastertech.tech/design/5-grandes-tendencias-de-web-design-para-2018/
 
 # Links
+- https://tableless.com.br/oocss-smacss-bem-dry-css-afinal-como-escrever-css/
+- https://tableless.com.br/6-estrategias-para-melhorar-a-organizacao-do-seu-css-2/
+- https://tableless.com.br/afinal-como-usar-heranca-no-css/
+- https://tableless.com.br/efeito-cascata-e-especificidade-do-css/
 - http://www.creativebloq.com/web-design/10-reasons-you-should-be-using-atomic-design-61620771
 - http://patternlab.io/
 - http://www.princiweb.com.br/blog/programacao/design-patterns/o-que-sao-design-patterns.html

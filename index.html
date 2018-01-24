@@ -80,6 +80,7 @@
               <li>Organização</li>
               <li>Nomenclatura</li>
               <li>Herança</li>
+              <li>Lógica</li>
               <li>Repetição</li>
             </ul>
             <div class="">
@@ -101,7 +102,7 @@
         <section>
           <h2>Organização</h2>
           <br>
-          <div class="container wrap align-items-start">
+          <div class="container wrap align-items-start justify-content-center">
             <img src="./img/organizacao.png" alt="" width="300">
             <img src="./img/organizacao2.png" alt="" width="400">
           </div>
@@ -109,14 +110,41 @@
 
         <section>
           <h2>Nomenclatura</h2>
+          <div class="container wrap align-center">
+            <img src="./img/nomenclatura.png" alt="" width="800px">
+            <img src="./img/nomenclatura2.png" alt="" width="800px">
+          </div>
         </section>
 
         <section>
-          <h2>Herança</h2>
+          <h2>Nomenclatura</h2>
+          <div class="container wrap align-items-start">
+            <img src="./img/nomenclatura3.png" alt="" width="400px">
+            <img src="./img/nomenclatura4.png" alt="" width="400px">
+          </div>
         </section>
 
         <section>
-          <h2>Repeetição</h2>
+          <h2 class="container align-items-baseline justify-content-center">Herança <small>!important</small> </h2>
+          <div class="container wrap align-center">
+            <img src="./img/heranca.png" alt="" width="600px">
+            <img src="./img/heranca2.png" alt="" width="600px">
+          </div>
+        </section>
+
+        <section>
+          <h2>Lógica</h2>
+          <div class="container wrap align-center">
+            <img src="./img/logica.png" alt="" width="600">
+            <img src="./img/logica2.png" alt="" width="600">
+          </div>
+        </section>
+
+        <section>
+          <h2>Repetição</h2>
+          <div class="container wrap align-center">
+            <img src="./img/repeticao.png" alt="" width="800">
+          </div>
         </section>
 
         <section>
@@ -132,99 +160,220 @@
           </div>
         </section>
 
-        <section class="container wrap align-center">
-          <div class="flex-grow-1 flex-basis-200">
-            <pre><code contenteditable>
-.box-title {
-  padding: 15px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  text-transform: uppercase;
+        <section class="container align-center">
+          <img src="./img/box2.png" alt="" width="800">
+        </section>
 
-    h2 {
-      color: $color-blue;
+        <section class="container align-center">
+          <img src="./img/box.png" alt="" width="800">
+        </section>
 
-        &.red {
-          color: $color-red;
-        }
-    }
-}
-            </code></pre>
-          </div>
+        <section class="container column align-center">
+          <h2>Maior o projeto, maior a treta!</h2>
+        </section>
 
-          <div class="flex-grow-1 flex-basis-200">
-            <pre><code contenteditable>
-.box-title-blue {
-  margin: 10px 20px;
-  line-height: 40px;
-  padding-bottom: 10px;
-
-    h2 {
-      color: #2123E9;
-      margin: 10px 20px;
-      line-height: 40px;
-    }
-}
-
-.box-title-red {
-  margin: 10px 20px;
-  line-height: 40px;
-  padding-bottom: 10px;
-
-    h2 {
-      color: #ff4455;
-      margin: 10px 20px;
-      line-height: 40px;
-    }
-}
-            </code></pre>
-          </div>
+        <section>
+          <h2>Resolução</h2>
+          <br>
+          <ul>
+            <li>Metodologias (BEM, RSCSS, ITCSS...)</li>
+            <li>StyleLint (Identação e padrão de código)</li>
+            <li>Divisão de CSS</li>
+            <li>Styleguide</li>
+            <li>Documentação</li>
+          </ul>
         </section>
 
       </section>
 
-      <section class="container column align-center">
-        <h2>Maior o projeto, maior a treta!</h2>
-      </section>
 
       <section>
         <section class="container column align-center">
           <h2>Metodologias</h2>
         </section>
+
         <section class="">
           <h2>BEM CSS</h2>
+          <p>
+            Sigla para block, element, modifier – é uma metodologia com várias versões cujo o preceito de esclarecer o desenvolvedor mais sobre o markup através de suas classes. Este sistema permite escrever sites de maneira rápida, auto-explicativa e com manutenção
+            descomplicada. Esqueça seus preconceitos com os caracteres duplos de hífen.
+          </p>
+          <br>
+          <p>
+            O grande trunfo do padrão é mesmo sugerir uma nomenclatura adequada para elementos descendentes.
+          </p>
+        </section>
+        <section class="container column align-center">
+          <h2>BEM CSS</h2>
+          <img src="./img/bem.png" alt="" width="600">
+          <img src="./img/bem2.png" alt="" width="600">
+        </section>
+
+        <section class="">
+          <h2>RSCSS</h2>
+          <p>
+            A ideia principal dele é criar um componente pai, que irá governar os elementos internos a partir do child selector >, também chamado de seletor filho ou descendente.
+          </p>
+          <br>
+          <p>
+            A primeira coisa que você deve fazer é pensar em tudo como se fossem componentes.
+          </p>
+          <br>
+          <p>
+            Componentes devem ser criados de uma forma que possam ser reutilizados em diferentes contextos. Se você cria um objeto genérico, ele pode ser extendido/reutilizado e tudo que você cria tem um lugar específico para ficar
+          </p>
         </section>
         <section class="">
           <h2>RSCSS</h2>
+          <div class="container wrap align-center">
+            <img src="./img/rscss2.png" alt="" width="600">
+            <img src="./img/rscss.png" alt="" width="500">
+          </div>
+        </section>
+
+        <section class="">
+          <h2>ITCSS</h2>
+          <p>
+            A ideia do ITCSS é você montar uma arquitetura que consiga mitigar esses pequenos problemas do CSS. Seu nome por extenso é Inverted Triangle CSS. Que envolve basicamente visualizar todo o CSS em camadas, que montadas formam um triângulo de cabeça para
+            baixo.
+          </p>
+          <br>
+          <p>
+            Essa organização hierárquica ajuda a organizar o CSS da forma mais efetiva, diminuindo conflitos e sobrescritas.
+          </p>
         </section>
         <section class="">
           <h2>ITCSS</h2>
+          <div class="container wrap align-center">
+            <img src="./img/it.png" alt="" width="900">
+          </div>
+        </section>
+        <section class="">
+          <h2>ITCSS</h2>
+          <div class="container wrap align-center">
+            <img src="./img/it2.png" alt="" width="700">
+            <img src="./img/it3.png" alt="" width="700">
+          </div>
+        </section>
+
+        <section class="">
+          <h2>Atomic Design</h2>
+          <p>
+            Ele parte do pressuposto que as páginas na internet na realidade são sistemas, ou seja, conjuntos de elementos interconectados que formam um todo organizado. Inspirado pelas aulas de química do colegial Frost percebeu que os componentes de uma página
+            da internet se comportam de maneira muito parecida com a de átomos, moléculas e organismos.
+          </p>
+          <br>
+          <p>
+            Através desta metodologia podemos estabelecer um padrão para a criação de sistemas de design, com partes reutilizáveis com uma progressão lógica de montagem.
+          </p>
+          <br>
+
         </section>
         <section class="">
           <h2>Atomic Design</h2>
+          <p>
+            A possibilidade de testar os átomos, moléculas e organismos em um ambiente real também garante que o seu produto final seja a prova de erros. Outra vantagem é a facilidade de mudanças e ajustes, diminuindo o impacto negativo de refações no fluxo de trabalho.
+            Basta trocar a ordem ou combinação de elementos para criar novas páginas.
+          </p>
         </section>
+        <section class="">
+          <h2>Atomic Design</h2>
+          <div class="container wrap align-center">
+            <img src="./img/atomic.jpg" alt="" width="900">
+          </div>
+        </section>
+
         <section class="">
           <h2>OOCSS</h2>
+          <p>
+            O conteúdo de um website geralmente é bem específico em cada uma das páginas. É pouco comum que o mesmo conteúdo se manifeste em diferentes seções de um projeto. Portanto, classes nomeadas com base no conteúdo são bastante difíceis de serem reusadas.
+          </p>
+          <br>
+          <p>
+            O estilo enfatiza a separação de propriedades de estrutura e de skin. Propriedades como background, color e border, quando fizerem parte da identidade visual do projeto, são consideras parte do skin e devem ser agrupadas em classes próprias.
+          </p>
         </section>
+        <section class="container column align-center">
+          <h2>OOCSS</h2>
+          <img src="./img/oocss.png" alt="" width="600">
+          <img src="./img/oocss2.png" alt="" width="600">
+        </section>
+
         <section class="">
           <h2>DRY CSS</h2>
+          <p>
+            O princípio consiste em não repetir propriedades com mesmos valores em seu código. De maneira simples, a todo momento que isto for necessário, estas propriedades devem ser agrupadas e endereçadas por vários seletores.
+          </p>
+          <br>
+          <p>
+            A técnica, assim como outros sistemas, sugere que seu código seja pensando em termos de padrões de aparência.
+          </p>
+        </section>
+        <section class="container column align-center">
+          <h2>DRY CSS</h2>
+          <img src="./img/drycss.png" alt="" width="800">
+          <img src="./img/drycss2.png" alt="" width="800">
+        </section>
+
+        <section class="">
+          <h2>SMACSS</h2>
+          <p>
+            O sistema estabelece e é bastante baseado em cinco categorias de regras de CSS: base, layout, module, state e a pouco importante theme.
+          </p>
+          <br>
+          <p>
+            O SMACSS é mais uma série de tutoriais de como escrever um bom código que propriamente um sistema de CSS. Não soluciona alguns desafios típicos do design de componentes de médio porte pois em nenhum momento endereça como nomear adequadamente elementos
+            descendentes.
+          </p>
+        </section>
+        <section class="container column align-center">
+          <h2>SMACSS</h2>
+          <img src="./img/smacss.png" alt="" width="800">
         </section>
       </section>
 
       <section class="container column align-center">
-        <h2>Design Patterns</h2>
-        <img src="./img/intro.png" alt="">
+
+        <section class="container column align-center">
+          <h2>Styleguide/Design System</h2>
+          <p>
+            Uma série de referências de estilos, componentes e padrões de aplicação com o objetivo de comunicar a mesma mensagem por meio de diversas soluções, com várias tecnologias, de forma clara e consistente.
+          </p>
+        </section>
+
+        <section class="container column align-center">
+          <img src="./img/intro.png" alt="">
+        </section>
+
+        <section class="container column align-items-start justify-content-center">
+          <h2>Exemplos</h2>
+          <img src="./img/styleguide.gif" alt="" width="800">
+        </section>
+
+        <section class="container wrap align-center">
+          <img src="./img/styleguide2.png" alt="" width="400">
+          <img src="./img/styleguide3.png" alt="" width="400">
+          <img src="./img/styleguide4.png" alt="" width="400">
+        </section>
+
+        <section class="container column align-items-start justify-content-center">
+          <img src="./img/styleguide.png" alt="" width="500">
+        </section>
+
+        <section class="container column align-items-start justify-content-center">
+          <h2>Links</h2>
+          <br>
+          <ul>
+            <li><a href="http://quinalha.me/styleguide-ead-minds/" target="_blank">Styleguide Ead Minds</a></li>
+            <li><a href="http://quinalha.me/atomic-styleguide/" target="_blank">Atomic Styleguide</a></li>
+            <li><a href="http://quinalha.me/bichinhos-vue/" target="_blank">Styleguide Bichinhos</a></li>
+          </ul>
+        </section>
+
+
       </section>
 
-      <section class="container column align-center">
-        <h2>Styleguide</h2>
-      </section>
 
-      <section class="container column align-center">
-        <h2>Exemplos Styleguide</h2>
-      </section>
 
       <section class="container column align-center">
         <h2>Minha metodologia</h2>
