@@ -1181,6 +1181,9 @@ body {
 	visibility: hidden;
 }
 
-section section.align-center {
+.container,
+section .container,
+section section .container,
+	section section section .container {
 	display: flex!important
 }

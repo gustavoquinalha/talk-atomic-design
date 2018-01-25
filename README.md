@@ -49,6 +49,8 @@ https://github.com/gustavoquinalha/atomic-design-bem-rscss-itcss
 - https://blog.mastertech.tech/design/5-grandes-tendencias-de-web-design-para-2018/
 
 # Links
+- https://tableless.com.br/pre-processadores-usar-ou-nao-usar/
+- http://blog.millermedeiros.com/the-problem-with-css-pre-processors/
 - https://tableless.com.br/oocss-smacss-bem-dry-css-afinal-como-escrever-css/
 - https://tableless.com.br/6-estrategias-para-melhorar-a-organizacao-do-seu-css-2/
 - https://tableless.com.br/afinal-como-usar-heranca-no-css/
