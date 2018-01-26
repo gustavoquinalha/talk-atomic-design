@@ -1197,3 +1197,11 @@ section section .container,
 	justify-content: center;
 	align-items: center;
 }
+
+.devpr {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
